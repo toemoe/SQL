@@ -1,6 +1,6 @@
 DROP INDEX IF EXISTS idx_1;
 
-CREATE INDEX idx_1 ON menu(pizza_name, pizzeria_id);
+CREATE INDEX idx_1 ON pizzeria(rating);
 
 SET ENABLE_SEQSCAN TO OFF;
 
